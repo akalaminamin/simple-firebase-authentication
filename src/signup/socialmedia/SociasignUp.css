@@ -1,0 +1,14 @@
+.social-signup{
+    text-align: right;
+    margin-top: -45px;
+}
+.social-signup button{
+    padding: 10px 15px;
+    border: none;
+    background: #fff;
+    color: #000;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+}

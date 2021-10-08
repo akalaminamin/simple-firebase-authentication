@@ -1,0 +1,12 @@
+.singup-container{
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.right-side > h4{
+    text-align: right;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+.right-side > h4:hover{
+    text-decoration: underline;
+}

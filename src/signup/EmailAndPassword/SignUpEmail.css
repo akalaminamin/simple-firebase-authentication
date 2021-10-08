@@ -1,0 +1,61 @@
+.singup-container{
+    background-color: #fff;
+    display: grid;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.singup-img{
+    width: 90%;
+}
+.left-side{
+    padding: 5%;
+}
+.right-side{
+    padding: 8%;
+    background: blue;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.right-side > h2{
+    font-size: 36px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+.right-side > h4{
+    text-align: right;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+.right-side > h4:hover{
+    text-decoration: underline;
+}
+.input{
+    width: 80%;
+    padding: 9px 13px;
+    outline: none;
+    margin: 10px 0px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.submit-btn{
+    width: 150px;
+    padding: 9px 0px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.error{
+    color: rgb(160, 136, 3);
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 15px;
+}
+.error h3{
+    font-size: 25px;
+}
